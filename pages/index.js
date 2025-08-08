@@ -336,4 +336,17 @@ export default function Dashboard() {
                           variant={product.trend === 'up' ? 'default' : 'destructive'}
                           className="text-xs"
                         >
-                          {product.
+                                                {product.trend === 'up' ? 'Up' : 'Down'}
+                        </Badge>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        </motion.div>
+      </div>
+    </div>
+  );
+}
