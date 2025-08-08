@@ -360,7 +360,7 @@ const MetricsPage = () => {
                     <span className="text-slate-300">Error Rate</span>
                     <span className="text-red-500">0.02%</span>
                   </div>
-                </div>
+   
               </CardContent>
             </Card>
           </motion.div>
