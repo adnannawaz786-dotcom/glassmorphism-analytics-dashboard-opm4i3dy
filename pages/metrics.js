@@ -348,7 +348,26 @@ const MetricsPage = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="space-y-2">
-                  <div className="flex justify-between">
+                       <div className="flex justify-between">
                     <span className="text-slate-300">Site Speed</span>
                     <span className="text-green-400">Excellent</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-300">Uptime</span>
+                    <span className="text-green-400">99.98%</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-slate-300">Error Rate</span>
+                    <span className="text-red-500">0.02%</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MetricsPage;
